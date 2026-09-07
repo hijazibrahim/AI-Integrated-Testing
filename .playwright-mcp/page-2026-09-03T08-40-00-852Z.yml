@@ -1,0 +1,122 @@
+- generic [ref=f3e1]:
+  - generic [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - link:
+        - /url: admin.htm
+        - img [ref=f3e4] [cursor=pointer]
+      - link "ParaBank":
+        - /url: index.htm
+        - img "ParaBank" [ref=f3e5] [cursor=pointer]
+      - paragraph [ref=f3e6]: Experience the difference
+    - generic [ref=f3e7]:
+      - list [ref=f3e8]:
+        - listitem [ref=f3e9]: Solutions
+        - listitem [ref=f3e10]:
+          - link "About Us" [ref=f3e11] [cursor=pointer]:
+            - /url: about.htm
+        - listitem [ref=f3e12]:
+          - link "Services" [ref=f3e13] [cursor=pointer]:
+            - /url: services.htm
+        - listitem [ref=f3e14]:
+          - link "Products" [ref=f3e15] [cursor=pointer]:
+            - /url: http://www.parasoft.com/jsp/products.jsp
+        - listitem [ref=f3e16]:
+          - link "Locations" [ref=f3e17] [cursor=pointer]:
+            - /url: http://www.parasoft.com/jsp/pr/contacts.jsp
+        - listitem [ref=f3e18]:
+          - link "Admin Page" [ref=f3e19] [cursor=pointer]:
+            - /url: admin.htm
+      - list [ref=f3e20]:
+        - listitem [ref=f3e21]:
+          - link "home" [ref=f3e22] [cursor=pointer]:
+            - /url: index.htm
+        - listitem [ref=f3e23]:
+          - link "about" [ref=f3e24] [cursor=pointer]:
+            - /url: about.htm
+        - listitem [ref=f3e25]:
+          - link "contact" [ref=f3e26] [cursor=pointer]:
+            - /url: contact.htm
+    - generic [ref=f3e27]:
+      - generic [ref=f3e28]:
+        - heading "Customer Login" [level=2] [ref=f3e29]
+        - generic [ref=f3e30]:
+          - generic [ref=f3e31]:
+            - paragraph [ref=f3e32]: Username
+            - textbox [active] [ref=f3e34]
+            - paragraph [ref=f3e35]: Password
+            - textbox [ref=f3e37]
+            - button "Log In" [ref=f3e39] [cursor=pointer]
+          - paragraph [ref=f3e40]:
+            - link "Forgot login info?" [ref=f3e41] [cursor=pointer]:
+              - /url: lookup.htm
+          - paragraph [ref=f3e42]:
+            - link "Register" [ref=f3e43] [cursor=pointer]:
+              - /url: register.htm
+      - generic [ref=f3e44]:
+        - heading "Customer Care" [level=1] [ref=f3e45]
+        - paragraph [ref=f3e46]: Email support is available by filling out the following form.
+        - table [ref=f3e48]:
+          - rowgroup [ref=f3e49]:
+            - row [ref=f3e50]:
+              - cell "Name:" [ref=f3e51]
+              - cell [ref=f3e52]:
+                - textbox [ref=f3e53]
+              - cell [ref=f3e54]
+            - row [ref=f3e55]:
+              - cell "Email:" [ref=f3e56]
+              - cell [ref=f3e57]:
+                - textbox [ref=f3e58]
+              - cell [ref=f3e59]
+            - row [ref=f3e60]:
+              - cell "Phone:" [ref=f3e61]
+              - cell [ref=f3e62]:
+                - textbox [ref=f3e63]
+              - cell [ref=f3e64]
+            - row [ref=f3e65]:
+              - cell "Message:" [ref=f3e66]
+              - cell [ref=f3e67]:
+                - textbox [ref=f3e68]
+              - cell [ref=f3e69]
+            - row [ref=f3e70]:
+              - cell [ref=f3e71]
+              - cell [ref=f3e72]:
+                - button "Send to Customer Care" [ref=f3e73] [cursor=pointer]
+  - generic [ref=f3e75]:
+    - list [ref=f3e76]:
+      - listitem [ref=f3e77]:
+        - link "Home" [ref=f3e78] [cursor=pointer]:
+          - /url: index.htm
+        - text: "|"
+      - listitem [ref=f3e79]:
+        - link "About Us" [ref=f3e80] [cursor=pointer]:
+          - /url: about.htm
+        - text: "|"
+      - listitem [ref=f3e81]:
+        - link "Services" [ref=f3e82] [cursor=pointer]:
+          - /url: services.htm
+        - text: "|"
+      - listitem [ref=f3e83]:
+        - link "Products" [ref=f3e84] [cursor=pointer]:
+          - /url: http://www.parasoft.com/jsp/products.jsp
+        - text: "|"
+      - listitem [ref=f3e85]:
+        - link "Locations" [ref=f3e86] [cursor=pointer]:
+          - /url: http://www.parasoft.com/jsp/pr/contacts.jsp
+        - text: "|"
+      - listitem [ref=f3e87]:
+        - link "Forum" [ref=f3e88] [cursor=pointer]:
+          - /url: http://forums.parasoft.com/
+        - text: "|"
+      - listitem [ref=f3e89]:
+        - link "Site Map" [ref=f3e90] [cursor=pointer]:
+          - /url: sitemap.htm
+        - text: "|"
+      - listitem [ref=f3e91]:
+        - link "Contact Us" [ref=f3e92] [cursor=pointer]:
+          - /url: contact.htm
+    - paragraph [ref=f3e93]: © Parasoft. All rights reserved.
+    - list [ref=f3e94]:
+      - listitem [ref=f3e95]: "Visit us at:"
+      - listitem [ref=f3e96]:
+        - link "www.parasoft.com" [ref=f3e97] [cursor=pointer]:
+          - /url: http://www.parasoft.com/

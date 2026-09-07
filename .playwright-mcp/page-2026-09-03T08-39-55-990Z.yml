@@ -1,0 +1,340 @@
+- generic [ref=f2e1]:
+  - generic [ref=f2e2]:
+    - generic [ref=f2e3]:
+      - link:
+        - /url: admin.htm
+        - img [ref=f2e4] [cursor=pointer]
+      - link "ParaBank":
+        - /url: index.htm
+        - img "ParaBank" [ref=f2e5] [cursor=pointer]
+      - paragraph [ref=f2e6]: Experience the difference
+    - generic [ref=f2e7]:
+      - list [ref=f2e8]:
+        - listitem [ref=f2e9]: Solutions
+        - listitem [ref=f2e10]:
+          - link "About Us" [ref=f2e11] [cursor=pointer]:
+            - /url: about.htm
+        - listitem [ref=f2e12]:
+          - link "Services" [ref=f2e13] [cursor=pointer]:
+            - /url: services.htm
+        - listitem [ref=f2e14]:
+          - link "Products" [ref=f2e15] [cursor=pointer]:
+            - /url: http://www.parasoft.com/jsp/products.jsp
+        - listitem [ref=f2e16]:
+          - link "Locations" [ref=f2e17] [cursor=pointer]:
+            - /url: http://www.parasoft.com/jsp/pr/contacts.jsp
+        - listitem [ref=f2e18]:
+          - link "Admin Page" [ref=f2e19] [cursor=pointer]:
+            - /url: admin.htm
+      - list [ref=f2e20]:
+        - listitem [ref=f2e21]:
+          - link "home" [ref=f2e22] [cursor=pointer]:
+            - /url: index.htm
+        - listitem [ref=f2e23]:
+          - link "about" [ref=f2e24] [cursor=pointer]:
+            - /url: about.htm
+        - listitem [ref=f2e25]:
+          - link "contact" [ref=f2e26] [cursor=pointer]:
+            - /url: contact.htm
+    - generic [ref=f2e27]:
+      - generic [ref=f2e28]:
+        - heading "Customer Login" [level=2] [ref=f2e29]
+        - generic [ref=f2e30]:
+          - generic [ref=f2e31]:
+            - paragraph [ref=f2e32]: Username
+            - textbox [active] [ref=f2e34]
+            - paragraph [ref=f2e35]: Password
+            - textbox [ref=f2e37]
+            - button "Log In" [ref=f2e39] [cursor=pointer]
+          - paragraph [ref=f2e40]:
+            - link "Forgot login info?" [ref=f2e41] [cursor=pointer]:
+              - /url: lookup.htm
+          - paragraph [ref=f2e42]:
+            - link "Register" [ref=f2e43] [cursor=pointer]:
+              - /url: register.htm
+      - generic [ref=f2e44]:
+        - text: "Available Bookstore SOAP services:"
+        - table [ref=f2e45]:
+          - rowgroup [ref=f2e46]:
+            - row [ref=f2e47]:
+              - cell "Bookstore" [ref=f2e48]:
+                - text: Bookstore
+                - list
+              - cell [ref=f2e49]:
+                - generic [ref=f2e50]: "Parasoft Bookstore Web service with a database backend. Includes a total of 9 book items. Endpoint address:"
+                - text: "https://parabank.parasoft.com/parabank/services/store-01 WSDL :"
+                - 'link "{http://store.parabank.parasoft.com/}Bookstore" [ref=f2e51] [cursor=pointer]':
+                  - /url: https://parabank.parasoft.com/parabank/services/store-01?wsdl
+                - text: "Target namespace: http://store.parabank.parasoft.com/"
+            - row [ref=f2e52]:
+              - cell "Bookstore (Version 2.0)" [ref=f2e53]:
+                - text: Bookstore (Version 2.0)
+                - list
+              - cell [ref=f2e54]:
+                - generic [ref=f2e55]: "Parasoft Bookstore Web service with a database backend. Includes a total of 9 book items. Endpoint address:"
+                - text: "https://parabank.parasoft.com/parabank/services/store-01V2 WSDL :"
+                - 'link "{http://store.parabank.parasoft.com/}Bookstore" [ref=f2e56] [cursor=pointer]':
+                  - /url: https://parabank.parasoft.com/parabank/services/store-01V2?wsdl
+                - text: "Target namespace: http://store.parabank.parasoft.com/"
+            - row [ref=f2e57]:
+              - cell "Bookstore (WS-Security Username Token)" [ref=f2e58]:
+                - list
+              - cell [ref=f2e60]:
+                - generic [ref=f2e61]: "Parasoft Bookstore Web service secured using WS-Security Username Token. Clients need to authenticate themselves using Username Token. username:soatest password:soatest Endpoint address:"
+                - text: "https://parabank.parasoft.com/parabank/services/store-wss-01 WSDL :"
+                - 'link "{http://store.parabank.parasoft.com/}Bookstore" [ref=f2e62] [cursor=pointer]':
+                  - /url: https://parabank.parasoft.com/parabank/services/store-wss-01?wsdl
+                - text: "Target namespace: http://store.parabank.parasoft.com/"
+            - row [ref=f2e63]:
+              - cell "Bookstore (WS-Security Signature)" [ref=f2e64]:
+                - list
+              - cell [ref=f2e66]:
+                - generic [ref=f2e67]:
+                  - text: Parasoft Bookstore Web service secured using WS-Security Signature. Clients need to sign the SOAP Body using the key store
+                  - link "soatest.pfx" [ref=f2e68] [cursor=pointer]:
+                    - /url: soatest.pfx
+                  - text: "key store password: security certificate alias: soatest private key alias: soatest algorithm: RSA Responses have the SOAP Body signed using the same certificate. Endpoint address:"
+                - text: "https://parabank.parasoft.com/parabank/services/store-wss-02 WSDL :"
+                - 'link "{http://store.parabank.parasoft.com/}Bookstore" [ref=f2e69] [cursor=pointer]':
+                  - /url: https://parabank.parasoft.com/parabank/services/store-wss-02?wsdl
+                - text: "Target namespace: http://store.parabank.parasoft.com/"
+            - row [ref=f2e70]:
+              - cell "Bookstore (WS-Security Encryption)" [ref=f2e71]:
+                - list
+              - cell [ref=f2e73]:
+                - generic [ref=f2e74]:
+                  - text: Parasoft Bookstore Web service secured using WS-Security Encryption. Clients need to encrypt the SOAP Body using the key store
+                  - link "soatest.pfx" [ref=f2e75] [cursor=pointer]:
+                    - /url: soatest.pfx
+                  - text: "key store password: security public key alias: soatest Responses have the SOAP Body encrypted using the same key. Endpoint address:"
+                - text: "https://parabank.parasoft.com/parabank/services/store-wss-03 WSDL :"
+                - 'link "{http://store.parabank.parasoft.com/}Bookstore" [ref=f2e76] [cursor=pointer]':
+                  - /url: https://parabank.parasoft.com/parabank/services/store-wss-03?wsdl
+                - text: "Target namespace: http://store.parabank.parasoft.com/"
+            - row [ref=f2e77]:
+              - cell "Bookstore (WS-Security Signature and Encryption)" [ref=f2e78]:
+                - list
+              - cell [ref=f2e80]:
+                - generic [ref=f2e81]:
+                  - text: Parasoft Bookstore Web service secured using WS-Security Signature and Encryption. Clients need to sign, then encrypt the SOAP Body using the key store
+                  - link "soatest.pfx" [ref=f2e82] [cursor=pointer]:
+                    - /url: soatest.pfx
+                  - text: "key store password: security key alias: soatest Responses have the SOAP Body signed, then encrypted using the same key Endpoint address:"
+                - text: "https://parabank.parasoft.com/parabank/services/store-wss-04 WSDL :"
+                - 'link "{http://store.parabank.parasoft.com/}Bookstore" [ref=f2e83] [cursor=pointer]':
+                  - /url: https://parabank.parasoft.com/parabank/services/store-wss-04?wsdl
+                - text: "Target namespace: http://store.parabank.parasoft.com/"
+        - text: "Bookstore services:"
+        - table [ref=f2e84]:
+          - rowgroup [ref=f2e85]:
+            - row [ref=f2e86]:
+              - cell "Method" [ref=f2e87]
+              - cell "Parameters" [ref=f2e88]
+              - cell "Description" [ref=f2e89]
+            - row [ref=f2e90]:
+              - cell "getItemById" [ref=f2e91]
+              - cell "int" [ref=f2e92]
+              - cell "Returns the Book object with the given item id. Valid id values are 1- 9, or if you add a new entry using the addNewItemToInventory method, you can retrieve a Book using the new id." [ref=f2e93]
+            - row [ref=f2e94]:
+              - cell "getItemByTitle" [ref=f2e95]
+              - cell "string" [ref=f2e96]
+              - 'cell "Returns a list of Book objects that match your title search query. The Book''s price value will increase by $1.00 every 5 invocations. Example keywords: linux, java, C++, program. Leave it blank to get ALL the books in the database." [ref=f2e97]'
+            - row [ref=f2e98]:
+              - cell "addItemToCart" [ref=f2e99]
+              - cell "int, int, int" [ref=f2e100]
+              - cell "Adds a specified amount of Books to a cart. If no cartId is given or if the cartId is equal to 0, a unique Id will be genearted for the user. All carts that are inactive for 20 minutes will be removed." [ref=f2e101]
+            - row [ref=f2e102]:
+              - cell "getItemsInCart" [ref=f2e103]
+              - cell "int" [ref=f2e104]
+              - cell "Returns a list of items that exist in the specified cart." [ref=f2e105]
+            - row [ref=f2e106]:
+              - cell "updateItemInCart" [ref=f2e107]
+              - cell "int, int, int" [ref=f2e108]
+              - cell "Update an existing order in a cart. Cannot update an order where quantity supplied is greater than the quantity in stock. Possible to update na order to have zero quantity." [ref=f2e109]
+            - row [ref=f2e110]:
+              - cell "submitOrder" [ref=f2e111]
+              - cell "int" [ref=f2e112]
+              - cell "Submits the items in a cart. This removes all the existing items in the cart and deletes the cartId." [ref=f2e113]
+            - row [ref=f2e114]:
+              - cell "addNewItemToInventory" [ref=f2e115]
+              - cell "Book" [ref=f2e116]
+              - cell "Add new book entries into the database. All new entries that are not accessed within 20 minutes will be removed from the database." [ref=f2e117]
+        - text: "Available ParaBank SOAP services:"
+        - table [ref=f2e118]:
+          - rowgroup [ref=f2e119]:
+            - row [ref=f2e120]:
+              - cell [ref=f2e121]:
+                - text: LoanProcessorService
+                - list [ref=f2e122]:
+                  - listitem [ref=f2e123]: requestLoan
+              - cell [ref=f2e124]:
+                - text: "Endpoint address: https://parabank.parasoft.com/parabank/services/LoanProcessor WSDL :"
+                - 'link "{http://service.parabank.parasoft.com/}LoanProcessorServiceImplService" [ref=f2e125] [cursor=pointer]':
+                  - /url: https://parabank.parasoft.com/parabank/services/LoanProcessor?wsdl
+                - text: "Target namespace: http://service.parabank.parasoft.com/"
+            - row [ref=f2e126]:
+              - cell "ParaBankService" [ref=f2e127]:
+                - text: ParaBankService
+                - list
+              - cell [ref=f2e128]:
+                - text: "Endpoint address: https://parabank.parasoft.com/parabank/services/ParaBank WSDL :"
+                - 'link "{http://service.parabank.parasoft.com/}ParaBank" [ref=f2e129] [cursor=pointer]':
+                  - /url: https://parabank.parasoft.com/parabank/services/ParaBank?wsdl
+                - text: "Target namespace: http://service.parabank.parasoft.com/"
+        - text: "ParaBank services:"
+        - table [ref=f2e130]:
+          - rowgroup [ref=f2e131]:
+            - row [ref=f2e132]:
+              - cell "Method" [ref=f2e133]
+              - cell "Parameters" [ref=f2e134]
+              - cell "Description" [ref=f2e135]
+            - row [ref=f2e136]:
+              - cell "getAccount" [ref=f2e137]
+              - cell "int" [ref=f2e138]
+              - cell "Returns account information for a given account number." [ref=f2e139]
+            - row [ref=f2e140]:
+              - cell "buyPosition" [ref=f2e141]
+              - cell "int, int, string, string, int, double" [ref=f2e142]
+              - cell "Buy a position." [ref=f2e143]
+            - row [ref=f2e144]:
+              - cell "deposit" [ref=f2e145]
+              - cell "int, double" [ref=f2e146]
+              - cell "Deposit funds into the given account." [ref=f2e147]
+            - row [ref=f2e148]:
+              - cell "startupJmsListener" [ref=f2e149]
+              - cell [ref=f2e150]
+              - cell "Enable JMS message listener." [ref=f2e151]
+            - row [ref=f2e152]:
+              - cell "shutdownJmsListener" [ref=f2e153]
+              - cell [ref=f2e154]
+              - cell "Disable JMS message listener." [ref=f2e155]
+            - row [ref=f2e156]:
+              - cell "sellPosition" [ref=f2e157]
+              - cell "int, int, int, int, double" [ref=f2e158]
+              - cell "Sell a position." [ref=f2e159]
+            - row [ref=f2e160]:
+              - cell "login" [ref=f2e161]
+              - cell "string, string" [ref=f2e162]
+              - cell "Return the customer id for the given username and password." [ref=f2e163]
+            - row [ref=f2e164]:
+              - cell "getCustomer" [ref=f2e165]
+              - cell "int" [ref=f2e166]
+              - cell "Return customer information for the given customer number." [ref=f2e167]
+            - row [ref=f2e168]:
+              - cell "getAccounts" [ref=f2e169]
+              - cell "int" [ref=f2e170]
+              - cell "Return a list of accounts for a given customer." [ref=f2e171]
+            - row [ref=f2e172]:
+              - cell "setParameter" [ref=f2e173]
+              - cell "string, string" [ref=f2e174]
+              - cell "Sets the value of a given configuration parameter." [ref=f2e175]
+            - row [ref=f2e176]:
+              - cell "getPositionHistory" [ref=f2e177]
+              - cell "int, Date, Date" [ref=f2e178]
+              - cell "Return position history for a given position id and date range." [ref=f2e179]
+            - row [ref=f2e180]:
+              - cell "requestLoan" [ref=f2e181]
+              - cell "int, double, double, int" [ref=f2e182]
+              - cell "Request a loan." [ref=f2e183]
+            - row [ref=f2e184]:
+              - cell "cleanDB" [ref=f2e185]
+              - cell [ref=f2e186]
+              - cell "Reset database contents to a minimal state." [ref=f2e187]
+            - row [ref=f2e188]:
+              - cell "withdraw" [ref=f2e189]
+              - cell "int, double" [ref=f2e190]
+              - cell "Withdraw funds out of the given account." [ref=f2e191]
+            - row [ref=f2e192]:
+              - cell "getPosition" [ref=f2e193]
+              - cell "int" [ref=f2e194]
+              - cell "Return a position for a given position number." [ref=f2e195]
+            - row [ref=f2e196]:
+              - cell "initializeDB" [ref=f2e197]
+              - cell [ref=f2e198]
+              - cell "Reset database contents to a populated state" [ref=f2e199]
+            - row [ref=f2e200]:
+              - cell "getTransaction" [ref=f2e201]
+              - cell "int" [ref=f2e202]
+              - cell "Return transaction information for a given transaction id." [ref=f2e203]
+            - row [ref=f2e204]:
+              - cell "getPositions" [ref=f2e205]
+              - cell "int" [ref=f2e206]
+              - cell "Return a list of positions for a given customer." [ref=f2e207]
+            - row [ref=f2e208]:
+              - cell "getTransactions" [ref=f2e209]
+              - cell "int" [ref=f2e210]
+              - cell "Return a list of transactions for a given account." [ref=f2e211]
+            - row [ref=f2e212]:
+              - cell "transfer" [ref=f2e213]
+              - cell "int, int, double" [ref=f2e214]
+              - cell "Transfer funds between two accounts." [ref=f2e215]
+            - row [ref=f2e216]:
+              - cell "createAccount" [ref=f2e217]
+              - cell "int, int, int" [ref=f2e218]
+              - cell "Create a new account." [ref=f2e219]
+            - row [ref=f2e220]:
+              - cell "getTransactionsOnDate" [ref=f2e221]
+              - cell "int, string" [ref=f2e222]
+              - cell "Retrieve an account's transactions for a particular date." [ref=f2e223]
+            - row [ref=f2e224]:
+              - cell "getTransactionsByToFromDate" [ref=f2e225]
+              - cell "int, string, string" [ref=f2e226]
+              - cell "Retrieve an account's transactions between a range of dates." [ref=f2e227]
+            - row [ref=f2e228]:
+              - cell "getTransactionsByAmount" [ref=f2e229]
+              - cell "int, double" [ref=f2e230]
+              - cell "Retrieve an account's transactions matching the given monetary amount." [ref=f2e231]
+            - row [ref=f2e232]:
+              - cell "updateCustomer" [ref=f2e233]
+              - cell "int, string, string, string, string, string, string, string, string, string, string" [ref=f2e234]
+              - cell "Update a customer's information." [ref=f2e235]
+        - text: "Available RESTful services:"
+        - table [ref=f2e236]:
+          - rowgroup [ref=f2e237]:
+            - row [ref=f2e238]:
+              - cell [ref=f2e239]:
+                - text: "Endpoint address: https://parabank.parasoft.com/parabank/services/bank WADL :"
+                - link "https://parabank.parasoft.com/parabank/services/bank?_wadl&type=xml" [ref=f2e240] [cursor=pointer]:
+                  - /url: https://parabank.parasoft.com/parabank/services/bank?_wadl&_type=xml
+                - text: "OpenAPI :"
+                - link "https://parabank.parasoft.com/parabank/api-docs/index.html" [ref=f2e241] [cursor=pointer]:
+                  - /url: https://parabank.parasoft.com/parabank/api-docs/index.html
+  - generic [ref=f2e243]:
+    - list [ref=f2e244]:
+      - listitem [ref=f2e245]:
+        - link "Home" [ref=f2e246] [cursor=pointer]:
+          - /url: index.htm
+        - text: "|"
+      - listitem [ref=f2e247]:
+        - link "About Us" [ref=f2e248] [cursor=pointer]:
+          - /url: about.htm
+        - text: "|"
+      - listitem [ref=f2e249]:
+        - link "Services" [ref=f2e250] [cursor=pointer]:
+          - /url: services.htm
+        - text: "|"
+      - listitem [ref=f2e251]:
+        - link "Products" [ref=f2e252] [cursor=pointer]:
+          - /url: http://www.parasoft.com/jsp/products.jsp
+        - text: "|"
+      - listitem [ref=f2e253]:
+        - link "Locations" [ref=f2e254] [cursor=pointer]:
+          - /url: http://www.parasoft.com/jsp/pr/contacts.jsp
+        - text: "|"
+      - listitem [ref=f2e255]:
+        - link "Forum" [ref=f2e256] [cursor=pointer]:
+          - /url: http://forums.parasoft.com/
+        - text: "|"
+      - listitem [ref=f2e257]:
+        - link "Site Map" [ref=f2e258] [cursor=pointer]:
+          - /url: sitemap.htm
+        - text: "|"
+      - listitem [ref=f2e259]:
+        - link "Contact Us" [ref=f2e260] [cursor=pointer]:
+          - /url: contact.htm
+    - paragraph [ref=f2e261]: © Parasoft. All rights reserved.
+    - list [ref=f2e262]:
+      - listitem [ref=f2e263]: "Visit us at:"
+      - listitem [ref=f2e264]:
+        - link "www.parasoft.com" [ref=f2e265] [cursor=pointer]:
+          - /url: http://www.parasoft.com/
