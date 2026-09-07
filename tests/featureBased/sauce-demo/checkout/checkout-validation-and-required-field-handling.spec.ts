@@ -12,7 +12,7 @@ test.describe('Checkout Process', () => {
     await page.locator('[data-test="checkout"]').click();
 
     // 2. Attempt to submit with required fields missing.
-    await page.locator('[data-test="continue"]').click();
+    await page.locator('[data-test="continue"]');
     await expect(page.locator('[data-test="error"]')).toContainText('First Name is required');
 
     // 3. Fill all required fields and retry.

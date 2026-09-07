@@ -7,7 +7,32 @@
         "playwright",
         "run-test-mcp-server"
       ]
+    },
+
+    "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp@latest"
+      ]
     }
+  },
+  // "mcpServers": {
+  //   "atlassian": {
+  //     "type": "http",
+  //     "url": "https://mcp.atlassian.com/v2/mcp",
+  //     "gallery": true
+  //   }
+  // },
+   "mcpServers": {
+    "selenium": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@angiejones/mcp-selenium@latest"
+      ]
+    }
+  }
   },
   "inputs": []
 }

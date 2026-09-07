@@ -21,7 +21,7 @@ test.describe('Shopping Cart', () => {
     await page.locator('button').filter({ hasText: 'Add to cart' }).click();
     await expect(page.locator('.shopping_cart_badge')).toHaveText('2');
 
-    // 4. Review cart contents and totals.
+    //4.Review cart contents and totals.
     await page.locator('#shopping_cart_container').click();
     await expect(page.locator('.cart_item')).toHaveCount(2);
     await expect(page.locator('.cart_item').filter({ hasText: firstProductName }).first()).toContainText(firstProductName);
